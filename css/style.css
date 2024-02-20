@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.imgDataBase, .imgHouse, .imgSend, .imgTag {
+    position: relative;
+    top: -30%;
+}
+
+.bi-database::before {
+    content: "\f8c4";
+    font-size: 50px;
+}
+
+.bi-house-door::before {
+    content: "\f70d";
+    font-size: 50px;
+}
+
+.bi-tag::before {
+    content: "\f5b0";
+    font-size: 50px;
+    rotate: 135deg;
+}
+
+.bi-send::before {
+    content: "\f2e3";
+    font-size: 50px;
+}
+
+.active {
+    background-color: rgb(195, 93, 127);
+    padding: 10px;
+}
+
+.rotate-card {
+    width: 10%;
+    rotate: -90deg;
+    margin-left: 48px;
+}
+
+.bi-bar-chart::before {
+    content: "\f17e";
+    font-size: 100px;
+}
+
+.firstGrapgGreen, .secondGraphOrange, .thirdGraphBlue, .graphOrange1 {
+    position: relative;
+    top: -66px;
+}
+
+.graphBlue2 {
+    position: relative;
+    top: -66px;
+}
+
+
+
