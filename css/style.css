@@ -61,4 +61,18 @@
 }
 
 
+/* Выберем чекбокс и изменим его цвет */
+.form-check-input[type="checkbox"]:checked {
+    background-color: rgb(233, 237, 231);
+  }
+
+  .form-check-input[type="checkbox"]:checked + .form-check-label::before {
+    content: '\2713'; /* Символ галочки */
+    color: black; /* Черный цвет галочки */
+    position: relative;
+    right: 30px;
+  }
+
+
+
 
