@@ -36,7 +36,7 @@
 
 .active {
     background-color: rgb(195, 93, 127);
-    padding: 10px;
+    padding: 10px 0px 10px;
 }
 
 .rotate-card {

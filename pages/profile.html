@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/profile.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col col-12 col-sm-12 col-lg-3 border-end border-4 bg-body-tertiary">
+                <div class="row mt-3 mx-4">
+                    <h3 class="mb-3">Company</h3>
+                </div>
+                <hr>
+                <div class="row mt-3 mx-5 d-flex text-dark">
+                    <div class="col-2">
+                        <i class="bi bi-box2 text-black"></i>
+                    </div>
+                    <div class="col-8">
+                        <a class="text-decoration-none text-black" href="../index.html">Dashboard</a>
+                    </div>
+                </div>
+                <div class="row mt-3 mx-5 d-flex active">
+                    <div class="col-2">
+                        <i class="bi bi-person-fill text-white"></i>
+                    </div>
+                    <div class="col-8">
+                        <a class="text-decoration-none text-white" href="#">User Profile</a>
+                    </div>
+                </div>
+                <div class="row mt-3 mx-5 d-flex">
+                    <div class="col-2">
+                        <i class="bi bi-geo-alt-fill"></i>
+                    </div>
+                    <div class="col-8">
+                        <a class="text-decoration-none text-dark" href="#">Maps</a>
+                    </div>
+                </div>
+                <div class="row mt-3 mx-5 d-flex">
+                    <div class="col-2">
+                        <i class="bi bi-check2-all"></i>
+                    </div>
+                    <div class="col-8">
+                        <a class="text-decoration-none text-dark" href="#">Notifications</a>
+                    </div>
+                </div>
+                <div class="row mt-3 mx-5 d-flex">
+                    <div class="col-2">
+                        <i class="bi bi-globe"></i>
+                    </div>
+                    <div class="col-8">
+                        <a class="text-decoration-none text-dark" href="#">Support</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-12 col-sm-12 col-lg-9 bg-body-secondary">
+                <div class="row mt-3 mx-4">
+                    <h3 class="mb-3">User Profile</h3>
+            </div>
+                <div class="row text-center heightContainer">
+                    <div class="col col-12 col-sm-12 col-lg-8  mt-3 mb-3 order-sm-0 order-lg-0">
+                        <div class="card shadow">
+                            <div class="container mt-5">
+                                    <div class="col-12">
+                                        <div class="col-12 graphPurple">
+                                            <div class="col-12 bgPurple text-white pt-4 ps-4 pe-4 pb-2">
+                                                <div class="col-12"><h6 class="text-start">Edit Profile</h6></div>
+                                                <div class="col-12"><p class="text-start">Complete your profile</p></div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <form class="row g-3 needs-validation" novalidate>
+                                                <div class="col-md-4 position-relative">
+                                                  <label for="validationTooltip01" class="form-label">First name</label>
+                                                  <input type="text" class="form-control" id="validationTooltip01" value="Mark" required>
+                                                  <div class="valid-tooltip">
+                                                    Looks good!
+                                                  </div>
+                                                </div>
+                                                <div class="col-md-4 position-relative">
+                                                  <label for="validationTooltip02" class="form-label">Last name</label>
+                                                  <input type="text" class="form-control" id="validationTooltip02" value="Otto" required>
+                                                  <div class="valid-tooltip">
+                                                    Looks good!
+                                                  </div>
+                                                </div>
+                                                <div class="col-md-4 position-relative">
+                                                  <label for="validationTooltipUsername" class="form-label">Username</label>
+                                                  <div class="input-group has-validation">
+                                                    <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                                                    <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
+                                                    <div class="invalid-tooltip">
+                                                      Please choose a unique and valid username.
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <div class="col-md-6 position-relative">
+                                                  <label for="validationTooltip03" class="form-label">City</label>
+                                                  <input type="text" class="form-control" id="validationTooltip03" required>
+                                                  <div class="invalid-tooltip">
+                                                    Please provide a valid city.
+                                                  </div>
+                                                </div>
+                                                <div class="col-md-3 position-relative">
+                                                  <label for="validationTooltip04" class="form-label">State</label>
+                                                  <select class="form-select" id="validationTooltip04" required>
+                                                    <option selected disabled value="">Choose...</option>
+                                                    <option>...</option>
+                                                  </select>
+                                                  <div class="invalid-tooltip">
+                                                    Please select a valid state.
+                                                  </div>
+                                                </div>
+                                                <div class="col-md-3 position-relative">
+                                                  <label for="validationTooltip05" class="form-label">Zip</label>
+                                                  <input type="text" class="form-control" id="validationTooltip05" required>
+                                                  <div class="invalid-tooltip">
+                                                    Please provide a valid zip.
+                                                  </div>
+                                                </div>
+                                                <div class="col-12 text-end">
+                                                  <button class="btn btnApdateColor text-white mt-3 mb-3" type="submit">APDATE PROFILE</button>
+                                                </div>
+                                              </form>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-12 col-sm-12 col-lg-4  mt-3 mb-3">
+                        <div class="card shadow">
+                            <div class="container mt-5">
+                                <div class="row border-bottom border-1">
+                                    <div class="col-12">
+                                            <div class="row text-black">
+                                                <div class="col-12 order-sm-1 order-lg-1"><img class="profPhoto" src="../images/Photo-CV.png" alt=""></div>
+                                                <div class="col-12"><h5>CEO / CO FOUNDER</h5></div>
+                                                <div class="col-12"><h5>Alec Thomson</h5></div>
+                                                <div class="col-12"><p>Don't be scared of the truth because we need to estard the human foundation in truth And I love you like Kanye I love Rick Owen's bed design but the back is... </p></div>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <footer class="container-fluid border-top border-1">
+                    <p class="float-end mt-3">© 2019 - made with love</p>
+                    <p class="mt-3"><a class="text-decoration-none text-dark bold me-4" href="#toTop">ABOUT</a>  <a class="text-decoration-none text-dark bold me-4" href="#toTop">BLOG</a>  <a class="text-decoration-none text-dark bold" href="#toMiddle">LICENSES</a></p>
+                </footer>
+            </div>
+            
+        </div>
+    </div>
+    
+
+
+
+
+
+    
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>
